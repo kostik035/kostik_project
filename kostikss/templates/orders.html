@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Мои заказы</h2>
+{% for order in orders %}
+<div class="card mb-3">
+    <div class="card-body">
+        <h5>Заказ #{{ order.id }}</h5>
+        <p>Услуга: {{ order.gig.title if order.gig else 'Удалено' }}</p>
+        <p>Сумма: {{ order.price }} ₽</p>
+        <p>Статус: {{ order.status }}</p>
+    </div>
+</div>
+{% else %}
+<p>У вас нет заказов</p>
+{% endfor %}
+{% endblock %}
