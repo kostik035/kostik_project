@@ -1,5 +1,4 @@
 # kostik_project
-# marketplace_freelance
 
 Репозиторий, содержащий платформу для фрилансеров (маркетплейс услуг), созданную на Flask
 
@@ -57,5 +56,5 @@ kostikss/
 
 1. Перейдите в любой удобный каталог (cd C:\Users\USER\Documents), клонируйте репозиторий и перейдите к нему
    ```bash
-   git clone https://github.com/ваш-username/marketplace_freelance.git
-   cd marketplace_freelance
+   git clone https://github.com/kostik035/kostikss.git
+   cd kostikss
