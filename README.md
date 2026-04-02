@@ -58,3 +58,27 @@ kostikss/
    ```bash
    git clone https://github.com/kostik035/kostikss.git
    cd kostikss
+
+## Тестирование
+
+1. Перейдите в корень проекта
+2. Запустите тесты
+pytest -v
+
+## Демо-доступ
+
+Для тестирования функционала вы можете использовать следующие учетные записи:
+
+Продавец: seller / 123
+
+Покупатель: buyer / 123
+
+## Зависимости
+
+Flask
+
+Flask-SQLAlchemy
+
+Flask-Login
+
+Flask-WTF
