@@ -26,18 +26,29 @@
 **Структура проекта:**
 kostikss/
 ├── app.py # Основное приложение с маршрутами
+
 ├── models.py # Модели базы данных
+
 ├── forms.py # Формы для регистрации, входа, создания услуг
+
 ├── marketplace.db # База данных SQLite
+
 └── templates/ # HTML шаблоны
 
 ├── base.html
+
 ├── index.html
+
 ├── login.html
+
 ├── register.html
+
 ├── create_gig.html
+
 ├── gig_detail.html
+
 ├── orders.html
+
 └── profile.html
 
 ## Установка
