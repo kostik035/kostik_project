@@ -30,6 +30,7 @@ kostikss/
 ├── forms.py # Формы для регистрации, входа, создания услуг
 ├── marketplace.db # База данных SQLite
 └── templates/ # HTML шаблоны
+
 ├── base.html
 ├── index.html
 ├── login.html
