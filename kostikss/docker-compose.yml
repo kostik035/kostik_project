@@ -1,9 +1,0 @@
-version: '3.8'
-
-services:
-  zhorin:
-    build: .
-    container_name: zhorin
-    restart: always
-    volumes:
-      - .:/app
